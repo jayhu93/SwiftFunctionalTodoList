@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (5.0.4)
+  - Argo (4.2.0):
+    - Runes (>= 4.2.0)
+  - Curry (4.0.2)
+  - Delta (1.0.0)
+  - ReactiveCocoa (10.2.0):
+    - ReactiveSwift (~> 6.2)
+  - ReactiveSwift (6.2.1)
+  - Runes (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Argo
+  - Curry
+  - Delta (from `https://github.com/conqueror/Delta.git`)
+  - ReactiveCocoa
+  - ReactiveSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Argo
+    - Curry
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Runes
+
+EXTERNAL SOURCES:
+  Delta:
+    :git: https://github.com/conqueror/Delta.git
+
+CHECKOUT OPTIONS:
+  Delta:
+    :commit: ba1909a3f7ad7fd12f6c905e2a8fac9d4dccf7d0
+    :git: https://github.com/conqueror/Delta.git
+
+SPEC CHECKSUMS:
+  Alamofire: 0fe5fd24b4298dc377a6550da7d5f1b30e286fcb
+  Argo: d536a96befef47ea9b6405327dd604718fafc95c
+  Curry: e2388a19084bb0977d7318e39048d66550569bf0
+  Delta: 117de8f078ce0b95c6e6e0c75656f1918f9b1ce9
+  ReactiveCocoa: a123c42f449c552460a4ee217dd49c76a17c8204
+  ReactiveSwift: 07ddf579f4eb3ee3bd656214f0461aaf2c0fd639
+  Runes: 9d61b907da720c92fbb759a0efbb39d3971c6256
+
+PODFILE CHECKSUM: fa914d168581a739c57689fa8878018516e365dd
+
+COCOAPODS: 1.8.4
